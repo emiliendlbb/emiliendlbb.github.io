@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Les patrouilles — Le Geer Express</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+  <nav id="navbar" class="opaque">
+    <a class="nav-logo" href="/">
+      <svg viewBox="0 0 40 48" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 48 C20 48 10 38 10 28 C10 21 15 16 20 16 C25 16 30 21 30 28 C30 38 20 48 20 48Z"/>
+        <path d="M17 16 C15 11 10 8 6 4"/><path d="M17 16 C13 13 8 12 4 14"/>
+        <path d="M23 16 C25 11 30 8 34 4"/><path d="M23 16 C27 13 32 12 36 14"/>
+        <circle cx="20" cy="26" r="1.5" fill="currentColor" stroke="none"/>
+      </svg>
+      <span>Staff Scouts</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="/">Accueil</a></li>
+      <li><a href="/patrouilles">Les patrouilles</a></li>
+      <li><a href="/infos">Infos pratiques</a></li>
+      <li><a href="/activites">Activités &amp; Récompenses</a></li>
+      <li><a href="/promesse">Promesse, Quali &amp; Totem</a></li>
+      <li><a href="/avant">Avant le camp</a></li>
+      <li><a href="/recap">Récap 2024–2025</a></li>
+    </ul>
+    <button class="burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="/" onclick="closeMenu()">Accueil</a>
+    <a href="/patrouilles" onclick="closeMenu()">Les patrouilles</a>
+    <a href="/infos" onclick="closeMenu()">Infos pratiques</a>
+    <a href="/activites" onclick="closeMenu()">Activités &amp; Récompenses</a>
+    <a href="/promesse" onclick="closeMenu()">Promesse, Quali &amp; Totem</a>
+    <a href="/avant" onclick="closeMenu()">Avant le camp</a>
+    <a href="/recap" onclick="closeMenu()">Récap 2024–2025</a>
+  </div>
+
+  <div class="page-header">
+    <span class="page-tag">Le Geer Express</span>
+    <h1 class="page-title">À compléter</h1>
+    <div class="page-rule"></div>
+  </div>
+
+  <section>
+    <div class="container">
+      <p style="color:var(--muted); font-style:italic; text-align:center;">Contenu à venir…</p>
+    </div>
+  </section>
+
+  <footer>
+    <span>Le staff &mdash; Tous droits réservés</span>
+    <span>Camp Scouts 2025</span>
+  </footer>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
