@@ -64,8 +64,8 @@ nav.opaque {
 }
 
 .nav-logo img {
-  width: 6px;
-  height: 6px;
+  width: 12px;
+  height: 12px;
   object-fit: contain;
 }
 
